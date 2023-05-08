@@ -1,0 +1,16 @@
+from stack import Stack
+
+myStack = Stack()
+print(myStack.is_empty())
+myStack.push("A")
+myStack.push("B")
+myStack.push("C")
+myStack.push("D")
+print(myStack.peek())
+myStack.pop()
+myStack.pop()
+myStack.pop()
+myStack.pop()
+print(myStack.peek())
+print(myStack.get_stack())
+print(myStack.is_empty())
